@@ -39,14 +39,23 @@ The main goals of this project are:
 
 ## Installation and Repository
 ### Installation
+Clone repository:
 ```bash 
 git clone https://github.com/AlexandreMaghames/feature-selection-methods.git
 cd feature-selection-methods/
+```
+Create a virtual environment:
+```
+python -m venv venv
+source venv/bin/activate
+```
+
+Install dependancies:
+```
 pip install -r requirements.txt
 ```
 
 ### Repository Structure
-
 ```
 ├── data/
 │   ├── input/                
